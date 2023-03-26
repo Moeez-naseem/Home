@@ -1,0 +1,155 @@
+.service-top {
+    background-image: url(../img/ServicesPage-Hero-BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 101vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid #0E4BD5;
+}
+
+.service-top h1 {
+    font-size: 5rem;
+    width: 57%;
+    color: white;
+}
+
+/* serv-2 */
+
+.serv-2 {
+    margin: auto;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.serv-2 h2 {
+    font-size: 3rem;
+    padding: 2rem 0rem;
+    border-bottom: 2px solid #0E4BD5;
+}
+
+.serv-2 p {
+    padding: 1rem 0rem;
+    font-size: 0.8;
+}
+
+/* serv-blog */
+
+.serv-blog {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.serv-pra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 2rem;
+    width: 50%;
+    display: block;
+    height: 100%;
+}
+
+.serv-pra h2 {
+    padding: 1rem 0;
+}
+
+.image {
+    text-align: center;
+    width: 50%;
+}
+
+.image img {
+    padding: 2rem;
+    width: 40vw;
+}
+
+@media (max-width:1024px) {
+
+    .serv-blog:nth-child(2) .image{
+        order: 1;
+    }
+
+    .serv-blog:nth-child(2) .serv-pra{
+        order: 2;
+    }
+
+    .serv-blog:nth-child(4) .image{
+        order: 1;
+    }
+
+    .serv-blog:nth-child(4) .serv-pra{
+        order: 2;
+    }
+
+    .serv-blog:nth-child(6) .image{
+        order: 1;
+    }
+
+    .serv-blog:nth-child(6) .serv-pra{
+        order: 2;
+    }
+
+    .serv-blog:nth-child(8) .image{
+        order: 1;
+    }
+
+    .serv-blog:nth-child(8) .serv-pra{
+        order: 2;
+    }
+
+    .serv-blog:nth-child(10) .image{
+        order: 1;
+    }
+
+    .serv-blog:nth-child(10) .serv-pra{
+        order: 2;
+    }
+
+    .service-top h1 {
+        font-size: 2.5rem;
+    }
+
+    .serv-2 {
+        height: 100%;
+    }
+
+    .serv-2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .serv-blog {
+        height: 100%;
+        flex-direction: column;
+
+    }
+
+    .serv-pra {
+        margin: 0;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+
+    .image img {
+        padding: 2rem;
+        width: 90vw;
+    }
+}
