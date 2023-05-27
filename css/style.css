@@ -403,6 +403,26 @@
     border-bottom: 2px solid #0E4BD5;
 }
 
+.sel::-webkit-scrollbar {
+    width: 8px;
+    overflow: auto;
+    scroll-behavior: smooth;
+.sel}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+.sel}
+
+.sel::-webkit-scrollbar-thumb {
+    background: #2f2f9c;
+    transition: all .2s ease-in-out;
+.sel}
+
+.sel::-webkit-scrollbar-thumb:hover {
+    background: #1b1b47;
+
+}
+
 .sel {
     display: flex;
     overflow-x: auto;
